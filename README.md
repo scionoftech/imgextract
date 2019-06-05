@@ -1,6 +1,6 @@
 # imgextract 
 
-[imgextract v0.0.1](https://pypi.org/project/imgutil/)
+[imgextract v0.0.1](https://pypi.org/project/imgextract/)
 
 This python package can be used for extracting pages from PDF and TIF/TIFF files.
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
 ### Installation
 
 ```shell
-$ pip install imgutil
+$ pip install imgextract
 ```
 
 ### License

@@ -1,6 +1,6 @@
 include Readme.md
 include LICENSE
-include imgutil.py
+include imgextract.py
 include gui.py
 include da_icon.png
 
