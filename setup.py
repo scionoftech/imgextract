@@ -13,7 +13,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url="https://github.com/scionoftech/imgextract",
-    download_url="https://github.com/scionoftech/imgextract/archive/v0.0.1.tar.gz",
+    download_url="https://github.com/scionoftech/imgextract/archive/imgextract_v0.0.1.tar.gz",
     install_requires=['pdf2image', 'scikit-image', 'Pillow'],
     packages=[''],
     package_data={'': ['proppler/*']},

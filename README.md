@@ -43,6 +43,23 @@ if __name__ == "__main__":
 
 ```
 
+### GUI for Image extraction
+
+
+[![GUI for Image extraction](screenshot.png)]
+
+
+```python
+
+from imggui import Creator
+
+if __name__ == "__main__":
+    ss = Creator()
+    ss.openwindow()
+
+
+```
+
 ### Installation
 
 ```shell
