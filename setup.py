@@ -6,7 +6,7 @@ with open('README.md') as f:
 setuptools.setup(
     name="imgextract",
     version="0.0.1",
-    scripts=['imgextract.py'],
+    scripts=['imgextract/imgext.py', 'imgextract/imggui.py'],
     author="Sai Kumar Yava",
     author_email="saikumar.geek@gmail.com",
     description="A python package for extracting images from PDF/TIF files",
@@ -15,7 +15,7 @@ setuptools.setup(
     url="https://github.com/scionoftech/imgextract",
     download_url="https://github.com/scionoftech/imgextract/archive/imgextract_v0.0.1.tar.gz",
     install_requires=['pdf2image', 'scikit-image', 'Pillow'],
-    packages=[''],
+    packages=['imgextract'],
     package_data={'': ['proppler/*']},
     include_package_data=True,
     keywords=['pdf', 'tif', 'tiff', 'image'],

@@ -1,4 +1,4 @@
-from imgextract import ImgExtractor
+from imgextract.imgext import ImgExtractor
 import sys
 
 if __name__ == '__main__':

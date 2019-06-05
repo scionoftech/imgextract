@@ -1,17 +1,17 @@
 include Readme.md
 include LICENSE
-include imgextract.py
-include gui.py
-include da_icon.png
+include imgextract/*.py
+include screenshot.png
+include imgextract/da_icon.png
 
-include poppler/bin/*.dll
-include poppler/bin/*.exe
-include poppler/bin/AUTHORS
-include poppler/bin/BINARIES
-include poppler/bin/COPYING
-include poppler/bin/COPYING3
-include poppler/bin/README
-include poppler/bin/README-XPDF
+include imgextract/poppler/bin/*.dll
+include imgextract/poppler/bin/*.exe
+include imgextract/poppler/bin/AUTHORS
+include imgextract/poppler/bin/BINARIES
+include imgextract/poppler/bin/COPYING
+include imgextract/poppler/bin/COPYING3
+include imgextract/poppler/bin/README
+include imgextract/poppler/bin/README-XPDF
 
 include poppler/include/poppler/cpp/*.h
 include poppler/lib/*.a

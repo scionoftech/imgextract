@@ -19,7 +19,7 @@ Install poppler in linux [stackoverflow](https://stackoverflow.com/questions/321
 
 ```python
 
-from imgextract import ImgExtractor
+from imgextract.imgext import ImgExtractor
 
 if __name__ == "__main__":
     ss = ImgExtractor()
@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
 ```python
 
-from imgextract import ImgExtractor
+from imgextract.imgext import ImgExtractor
 
 if __name__ == "__main__":
     ss = ImgExtractor()
@@ -51,10 +51,10 @@ if __name__ == "__main__":
 
 ```python
 
-from imggui import Creator
+from imgextract.imggui import GuiExtractor
 
 if __name__ == "__main__":
-    ss = Creator()
+    ss = GuiExtractor()
     ss.openwindow()
 
 
