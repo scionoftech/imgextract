@@ -46,7 +46,7 @@ if __name__ == "__main__":
 ### GUI for Image extraction
 
 
-[![GUI for Image extraction](screenshot.png)]
+[![GUI for Image extraction](screenshot.png)](https://pypi.org/project/imgextract/)
 
 
 ```python
