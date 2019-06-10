@@ -1,17 +1,35 @@
 # imgextract 
 
-[imgextract v0.0.1](https://pypi.org/project/imgextract/)
+[imgextract v0.0.2](https://pypi.org/project/imgextract/)
 
 This python package can be used for extracting pages from PDF and TIF/TIFF files.
 
 
-This packages uses poppler for reading pdf files, for windows platform it has been included in package but for linux we have to install it manually.
+This packages uses poppler for reading pdf files and tkinter for gui, for windows platform poppler has been included in package and tkinter can be installed with python but for linux we have to install them manually.
 
-## How to get poppler
+## How to install poppler and tkinter
 
-Download poppler from [poppler](https://poppler.freedesktop.org/)
+We can download poppler from [poppler](https://poppler.freedesktop.org/) 
 
-Install poppler in linux [stackoverflow](https://stackoverflow.com/questions/32156047/how-to-install-poppler-in-ubuntu-15-04)
+OR
+
+We can install poppler using below command 
+
+```
+
+sudo apt-get install python-poppler
+
+```
+
+Install tkinter in linux using below command
+
+```
+
+sudo apt-get update
+sudo apt-get install python3-tk
+
+
+```
 
 ## How to use
 
